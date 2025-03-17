@@ -2106,13 +2106,14 @@ select.mobile-device {
 .footer {
     padding: 0px;
     color: #999;
-    background-color: #ffffff;
+    background-color:#c6e7e2;
 }
 
 .footer .widget-title {
     position: relative;
     display: block;
     margin-bottom: 30px;
+    padding-top: 50px;
 }
 
 .footer .widget-title small {
