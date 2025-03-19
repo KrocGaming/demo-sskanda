@@ -1,254 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-    <title>Horizon 17 Technologies</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Horizon 17 Technologies</title>  
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Colors CSS -->
-    <link rel="stylesheet" href="css/colors.css">
-    <!-- ALL VERSION CSS -->
-    <link rel="stylesheet" href="css/versions.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Append
+  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body class="seo_version">
 
-	<!-- LOADER -->
-	<div id="preloader">
-		<div id="cupcake" class="box">
-			<span class="letter">L</span>
-			<div class="cupcakeCircle box">
-				<div class="cupcakeInner box">
-					<div class="cupcakeCore box"></div>
-				</div>
-			</div>
-			<span class="letter box">A</span>
-			<span class="letter box">D</span>
-			<span class="letter box">I</span>
-			<span class="letter box">N</span>
-			<span class="letter box">G</span>
-		</div>
-	</div>
-	<!-- END LOADER -->
-	
-<header class="header header_style_01">
-    <nav class="megamenu navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logos/logo-seo.png" alt="image">
-                </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right menu-top">
-                    <li><a  href="index.html">Home</a></li>
-                    
-                    <!-- About Us with Submenu -->
-                  
+<body class="index-page">
 
-                   <li class="dropdown">
-                        <a  class="active" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-left">  <!-- Ensures dropdown aligns properly -->
-                            <li><a href="company.html">Company</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <!-- <li><a href="partner.html">Partnerships</a></li> -->
-                            
-                        </ul>
-                    </li>
-                     <li class="dropdown">
-    <a  class="dropdown-toggle" data-toggle="dropdown">Solutions <span class="caret"></span></a>
-    <ul class="dropdown-menu dropdown-menu-left">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="images/logos/logo-seo.png" alt="image" >
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li class="dropdown"><a href="#"><span>About us</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="company.html">Company</a></li>
+              <li><a href="team.html">Team</a></li>
+               <li><a href="partner.html">Partnerships</a></li>
+              
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+               <li><a href="sdg6.html">SDG 6</a></li>
         <li><a href="sdg7.html">SDG 7</a></li>
         <li><a href="sdg13.html">SDG 13</a></li>
+        <li><a href="sdg15.html">SDG 15</a></li>
         
-        <!-- Upcoming Initiative with Submenu -->
-        <li class="dropdown-submenu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Upcoming Initiative</a>
-            <ul class="dropdown-menu">
-                <li><a href="cleanwater.html">Clean Water</a></li>
-                <li><a href="aforesation.html">Afforestation Solution</a></li>
-    
+              
+              
             </ul>
-        </li>
-    </ul>
-</li>
-                    <li class="dropdown">
-                        <a  class="dropdown-toggle" data-toggle="dropdown">Knowledge Hub <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-left">  <!-- Ensures dropdown aligns properly -->
-                             <li><a href="ai.html">Artifical Intelligence</a></li>
+          </li>
+           <li class="dropdown"><a href="#"><span>Knowledge Hub</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="ai.html">Artifical Intelligence</a></li>
                             <li><a href="block.html">Block Chain Technology</a></li>
                             <li><a href="iot.html">Internet Of Things(IOT)</a></li>
-                             <li><a href="renewal.html">Renewal Energy Systems</a></li>
+                            <li><a href="renewal.html">Renewal Energy Systems</a></li>
                             <li><a href="carbon.html">Carbon Credit Mechanism</a></li>
-                        </ul>
-                    </li>
-                   <li><a href="careers.html">Careers</a></li>
+            </ul>
+          
+         </li>
+         <li><a href="careers.html">Careers</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    
-                </ul>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+
+      <img src="images/team.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 data-aos="fade-left" data-aos-delay="100" style="font-size: 80px; text-transform: uppercase; font-weight: bold;">
+  United by passion  <br> driven by innovation
+</h1>
+            
+          </div>
+          
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Leadership</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Dr. Milan Patnaik</h3>
+            <h6>Founder & CEO</h6>
+            <p>
+              Colonel (Dr) Milan Patnaik is a doctorate from IIT Madras and completed his Masters in Cybersecurity as the Topper from IIT Madras as well as MUNI Czech Republic. He has over 24 years of experience in developing cutting-edge technologies as part of Army's technology vertical and as an advisor to multiple IITs and foreign universities. His research spans offensive security, malware evasion, and AI-based blockchain solutions. He commanded the Army's largest telecommunication unit and has led enterprise-level organizations with 1000+ members across multiple verticals with a focus on national infrastructure security, including defense and telecommunication sectors. He has mentored over 40 startups, fostering "Made in India" innovations that focus on creating indigenous solutions to address critical challenges.
+            </p>
+            
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image-stack">
+              
+              <img src="images/leader/1.png" alt="" class="stack-back">
             </div>
-        </div>
-    </nav>
-</header>
+          </div>
+        </div><!-- Features Item -->
 
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="images/leader/2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Rumjhum Gupta</h3>
+            <h6>Founder & Chief Sustainability Officer</h6>
+            <p>Rumjhum Gupta, an MIT-certified Chief Sustainability Officer and MSc from London School of Economics, founded Horizon17 Technologies and Sustainability Pvt. Ltd. with a vision to provide technology-driven sustainability solutions aligned with the UN's Sustainable Development Goals (SDGs). With over 20 years of global experience, including roles as Nestlé's Global Corporate Spokesperson, founder of EcoMedia Solutions, and co-founder of UHeaIT Solutions Inc, Rumjhum brings deep expertise in corporate sustainability and communications to drive ESG excellence. Partnering with former Indian military experts in sustainability, technology, operations, and IT, she leads the company in delivering accredited sustainability solutions through comprehensive SDG audits and assessments.</p>
+           
+            
+          </div>
+        </div><!-- Features Item -->
 
-   <div class="all-page-title" style="background-image:url(images/dezmoz/ai.jpg);">
-        <div class="container text-center">
-            <h1>About Team</h1>
-        </div>
-		<!--Page -->
-        <div class="page-info">
-            <div class="container">
-            	<div class="inner-container">
-                    <ul class="bread-crumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><span>About Team</span></li>
-                    </ul>
-                </div>
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Colonel Pankaj Awasthi</h3>
+            <h6>Founder & CEO</h6>
+            <p>
+              Colonel Pankaj Awasthi is a military veteran with 22 years of experience, specializing in strategic leadership, technology management, and cybersecurity. He holds an MTech (Gold Medalist) in Computer Science, an MBA in IT & Systems Management, an MSc in Strategic Studies, and is a CISSP certified professional. As Security Tower Head at Unique Identification Authority of India (Aadhaar), he secures the world's largest PII repository for over 1.4 billion individuals. Previously, as Principal Cloud Consultant at Hewlett Packard Enterprise, he led innovative tech projects and mentored young professionals. He managed a 1000+ technologist unit overseeing IT and cybersecurity across 1200 Sq Km, represented India in an international staff course in Indonesia, and worked with the Indian Embassy in Jakarta.
+            </p>
+            
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image-stack">
+             
+              <img src="images/leader/3.png" alt="" class="stack-back">
             </div>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="images/leader/4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>Colonel Rajesh Choudhary</h3>
+            <h6>Co-Founder & COO</h6>
+            <p>Colonel Rajesh Choudhary is a military veteran with 21 years of experience, holding an MBA from Indian School of Business and an MSc in Strategic Studies. He brings expertise in ESG, operations management, public policy, and fostering sustainable organizational growth. He has excelled in strategic implementation, cross-departmental coordination, and operational efficiency. He has led projects for state and central governments, ensuring alignment with national priorities and sustainability. His expertise includes procurement, resource management, risk mitigation, and stakeholder engagement to drive business development. Recognized with two gallantry awards for his military operations, he has also spearheaded social impact initiatives and promoted ethical governance, enhancing public perception of military contributions.</p>
+            
+            
+          </div>
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+             <img src="images/logos/logo-whitenac.png" alt="" >
+          </a>
+          <p>At Horizon17 Technology and Sustainability Pvt Ltd, an initiative by Tribes 
+Communication Pvt Ltd, we leverage cutting-edge technology to accelerate 
+global sustainability progress. Founded by visionary experts in sustainability and technology, we are dedicated to advancing the Environmental, Social, and Governance (ESG) agenda by seamlessly integrating Blockchain, Artificial Intelligence, and Advanced Data Analytics into the United Nations Sustainable Development Goals (SDGs) framework.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
-        <!--End Page-->
-    </div><!-- end section -->
 
-    <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
-        <path d="M-5 100 Q 0 20 5 100 Z
-            M0 100 Q 5 0 10 100
-            M5 100 Q 10 30 15 100
-            M10 100 Q 15 10 20 100
-            M15 100 Q 20 30 25 100
-            M20 100 Q 25 -10 30 100
-            M25 100 Q 30 10 35 100
-            M30 100 Q 35 30 40 100
-            M35 100 Q 40 10 45 100
-            M40 100 Q 45 50 50 100
-            M45 100 Q 50 20 55 100
-            M50 100 Q 55 40 60 100
-            M55 100 Q 60 60 65 100
-            M60 100 Q 65 50 70 100
-            M65 100 Q 70 20 75 100
-            M70 100 Q 75 45 80 100
-            M75 100 Q 80 30 85 100
-            M80 100 Q 85 20 90 100
-            M85 100 Q 90 50 95 100
-            M90 100 Q 95 25 100 100
-            M95 100 Q 100 15 105 100 Z">
-        </path>
-    </svg>
-
-    <div id="about" class="section wb nopadtop">
-        <div class="container">
-            			
-			<div class="section-title text-center">
-                <h3>Our team</h3>
-                
-            </div><!-- end title -->
-			
-			<div class="seo-services row clearfix">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="who">
-						<img src="images/leader/1.png" alt="icon" class="wow fadeInUp" >
-						<h4>Dr. Milan Patnaik</h4>
-						<p class="lead">Founder & CEO</p>
-					</div>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="who">
-						<img src="images/leader/2.png" alt="icon" class="wow fadeInUp">
-						<h4>Rumjhum Gupta</h4>
-						<p class="lead">Founder & Chief Sustainability officer</p>
-					</div>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="who">
-						<img src="images/leader/3.png" alt="icon" class="wow fadeInUp">
-						<h4>Pankaj Awasthi</h4>
-						<p class="lead">CTO - M Tech, MBA</p>
-					</div>
-                </div><!-- end col -->  
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="who">
-						<img src="images/leader/4.png" alt="icon" class="wow fadeInUp">
-						<h4>Rajesh Choudhary</h4>
-						<p class="lead">COO - MSc, MBA</p>
-					</div>
-                </div><!-- end col -->  
-            </div><!-- end how-its-work -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-		<footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <img src="images/logos/logo-light.png" alt="">
-                           
-                        </div>
-                        <p> We are a technology-driven company specializing in Artificial Intelligence, Blockchain Technology, Internet of Things (IoT), and Renewable Energy Systems.</p>
-                        <p>Our focus is on developing innovative, efficient, and sustainable solutions that drive progress across industries.</p>
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Contact Details</h3>
-                        </div>
-
-                        <ul class="footer-links">
-                            <li><a href="mailto:#">info@horizon17ww.com</a></li>
-                            <li><a href="#">+91-0000000000</a></li>
-                            <li>Horizon17 Technology and Sustainability Pvt Ltd
-Unit No. 419, Suncity Trade Tower, Sector 22, 
-Sadar Bazar, Gurgaon- 122001 INDIA</li>
-                            
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Information</h3>
-                        </div>
-
-                        <ul class="footer-links">
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+           <ul class="footer-links">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Solutions</a></li>
@@ -256,49 +215,80 @@ Sadar Bazar, Gurgaon- 122001 INDIA</li>
 							<li><a href="#">Careers</a></li>
 							<li><a href="#">Contact</a></li>
                         </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
+        </div>
 
-                <div class="col-md-2 col-sm-2 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Social</h3>
-                        </div>
-                        <ul class="footer-links social-md">
-                            <li><a class="fb" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-                            <li><a class="gi" href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
-                            <li><a class="tw" href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-                          
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </footer><!-- end footer -->
-	
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-                <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2025 Design By <a href="#">Dezmos </a> Distributed By <a href="$">Dezmoz</a></p>
-                </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">AI based Carbon Emission Assessment Platform</a></li>
+            <li><a href="#">Blockchain based Carbon Credit Exchange</a></li>
+            <li><a href="#">Integration of IoT sensor with the STPs</a></li>
+            <li><a href="#">Artificial Intelligence</a></li>
+            <li><a href="#">Blockchain Technology</a></li>
+            <li><a href="#">Internet of Things (IoT)</a></li>
+            <li><a href="#">Renewable Energy Systems</a></li>
+          </ul>
+        </div>
 
-                <div class="footer-right">
-                    <form method="get" action="#">
-                        <input placeholder="Subscribe our newsletter.." name="search">
-                        <i class="fa fa-envelope-o"></i>
-                    </form>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Horizon17 Technology and Sustainability Pvt Ltd,
+                  Unit No. 419, Suncity Trade Tower, Sector 22,
+                  Sadar Bazar, Gurgaon- 122001 INDIA</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91-89880 12303</span></p>
+          <p><strong>Email:</strong> <span>info@horizon17ww.com</span></p>
+        </div>
 
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      </div>
+    </div>
 
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
+<div class="container copyright mt-4">
+  <div class="row align-items-center">
+    
+    <!-- Left: Copyright Text -->
+    <div class="col-md-4 text-start">
+      <p>© <span>Copyright</span> <strong class="sitename">Horizon</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+    <!-- Center: Credits -->
+    <div class="col-md-4 text-center">
+      <div class="credits">
+       Horizon17 Technology and Sustainability Pvt Ltd. 
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="col-md-4 text-end">
+  <a href="http://www.24sskanda.com/" target="_blank">
+    <img src="images/front/design.png" alt="Logo" style="width: 200px; height: auto;">
+  </a>
+</div>
+
+  </div>
+</div>
+
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
