@@ -804,8 +804,7 @@ section,
 .heroin .container {
   position: relative;
   z-index: 3;
-  margin: 0 auto; 
-  text-align: center; 
+
 }
 
 .heroin h2 {
